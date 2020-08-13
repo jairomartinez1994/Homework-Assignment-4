@@ -1,0 +1,27 @@
+
+ol li{
+    padding:5px;
+    border:1px solid black;
+    margin:2px;
+}
+#mainDev{
+   display:none; 
+}
+#reportDiv{
+display:none;
+}
+#previous-question{
+    display:none;
+}
+#submit-question{
+    display:none;
+}
+.answer-checker{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+ol li:hover{
+    background-color: tomato;
+    opacity: 0.7;
+}
